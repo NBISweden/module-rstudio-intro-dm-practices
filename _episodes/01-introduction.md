@@ -25,27 +25,22 @@ editor_options:
     wrap: 72
 ---
 
-## What is R? What is RStudio?
+## What is R? 
 
 The term "`R`" is used to refer to both the programming language and the
 software that interprets the scripts written using it.
 
--   R is a programming language widely used for statistical computing,
-    data analysis, and graphical visualization.
+- R is a powerful programming language used for statistical computing and graphics, popular among data analysts, statisticians, and researchers.
 
--   It provides a vast ecosystem of packages that offer a wide range of
-    tools for data manipulation, visualization, and statistical
-    modeling.
+- R provides a wide range of statistical and graphical techniques, making it a versatile tool for data analysis, data visualization, and modeling.
 
--   R is an open-source language with a large and active community,
-    making it easy to find resources and support.
+- R has a large and active community of users and developers, which provides extensive support, documentation, and packages for various tasks, such as data manipulation, machine learning, and data visualization.
 
--   R is known for its flexibility and versatility, allowing users to
-    create custom functions and packages to suit their specific needs.
+- R is an open-source language, which means it is free to use, modify, and distribute, making it accessible to a wide range of users.
 
--   R is a popular choice among data scientists, statisticians, and
-    researchers for its powerful capabilities in data analysis and
-    visualization.
+- R has a rich ecosystem of packages that extend its functionality, allowing users to tailor their analyses to specific domains or tasks, and making it a flexible and customizable language for data analysis and visualization.
+
+## What is RStudio?
 
 [RStudio](https://rstudio.com) is currently a very popular way to not
 only write your R scripts but also to interact with the R software. To
@@ -185,7 +180,7 @@ Using a consistent folder structure across your projects will help keep
 things organized, and will also make it easy to find/file things in the
 future. This can be especially helpful when you have multiple projects.
 In general, you may create directories (folders) for **scripts**,
-**data**, **data/raw**, **data/processed** and **documents**.
+**data**, **data/raw**, **data/processed** and **figs**.
 
 -   **`data/` & `data/raw` & `data/processed`** Use these folders to
     store raw data and intermediate datasets you may create for the need
@@ -195,8 +190,7 @@ In general, you may create directories (folders) for **scripts**,
     your data cleanup and preprocessing programmatically (i.e., with
     scripts, rather than manually) as possible. Separating raw data from
     processed data is also a good idea.
--   **`documents/`** This would be a place to keep outlines, drafts, and
-    other text.
+-   **`figs/`** This would be the place to keep plots and figures generated from the code.
 -   **`scripts/`** This would be the location to keep your R scripts for
     different analyses or plotting, and potentially a separate folder
     for your functions (more on that later).
@@ -354,3 +348,15 @@ Besides that, there are a few places on the internet that provide help:
 -   There are also some topic-specific mailing lists (GIS,
     phylogenetics, etc...), the complete list is
     [here](https://www.r-project.org/mail.html).
+
+> ## Summary
+>
+> In this tutorial, we provided a brief overview of the programming language R and 
+> demonstrated how to navigate in RStudio. In the next section, we will delve deeper into 
+> our newfound knowledge by continuing with practical examples of R programming. 
+> Specifically, we will further develop our R Project by incorporating real data into our folders, 
+> thereby enriching our learning experience in RStudio.
+>
+> Next up is the introduction to scripted analysis with R.
+{: .callout}
+
