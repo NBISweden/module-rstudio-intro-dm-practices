@@ -6,7 +6,7 @@ questions:
 - What is R?
 - What is RStudio and how does it work?
 - What is a good way to organise files in an analysis project?
-- How to create a README in markdown format
+- How to create a README in markdown format?
 objectives:
 - Be able to explain what R and RStudio are, what they are used for, and how they
   relate to each other.
@@ -25,20 +25,27 @@ editor_options:
     wrap: 72
 ---
 
-## What is R? 
+## What is R?
 
 The term "`R`" is used to refer to both the programming language and the
 software that interprets the scripts written using it.
 
-- R is a powerful programming language used for statistical computing and graphics, popular among data analysts, statisticians, and researchers.
+-   R is a powerful programming language used for statistical computing
+    and graphics, popular among data analysts, statisticians, and
+    researchers.
 
-- R provides a wide range of statistical and graphical techniques, making it a versatile tool for data analysis, data visualization, and modeling.
+-   R has a large and active community of users and developers, which
+    provides extensive support, documentation, and packages for various
+    tasks, such as data manipulation, machine learning, and data
+    visualization.
 
-- R has a large and active community of users and developers, which provides extensive support, documentation, and packages for various tasks, such as data manipulation, machine learning, and data visualization.
+-   R is an open-source language, which means it is free to use, modify,
+    and distribute, making it accessible to a wide range of users.
 
-- R is an open-source language, which means it is free to use, modify, and distribute, making it accessible to a wide range of users.
-
-- R has a rich ecosystem of packages that extend its functionality, allowing users to tailor their analyses to specific domains or tasks, and making it a flexible and customizable language for data analysis and visualization.
+-   R has a rich ecosystem of packages that extend its functionality,
+    allowing users to tailor their analyses to specific domains or
+    tasks, and making it a flexible and customizable language for data
+    analysis and visualization.
 
 ## What is RStudio?
 
@@ -72,7 +79,7 @@ computer, inspect the variables we are going to create, and visualize
 the plots we will generate. RStudio can also be used for other things
 (e.g., version control, developing packages, writing Shiny apps).
 Version control will be introduced later on, but packages and Shiny apps
-will not be covered during the workshop.
+will not be covered during this workshop.
 
 [![RStudio interface screenshot. Clockwise from top left: Source,
 Environment/History, Files/Plots/Packages/Help/Viewer,
@@ -190,15 +197,12 @@ In general, you may create directories (folders) for **scripts**,
     your data cleanup and preprocessing programmatically (i.e., with
     scripts, rather than manually) as possible. Separating raw data from
     processed data is also a good idea.
--   **`figs/`** This would be the place to keep plots and figures generated from the code.
+-   **`figs/`** This would be the place to keep plots and figures
+    generated from the code.
 -   **`scripts/`** This would be the location to keep your R scripts for
     different analyses or plotting, and potentially a separate folder
     for your functions (more on that later).
 -   **Additional (sub)directories** depending on your project needs.
-
-#### How it should look like
-![root-folder](../fig/rstudio-starting-how-it-should-look-like.png)
-![inside-data-folder](../fig/rstudio-create-subfolders.png)
 
 ### Creating a README file
 
@@ -211,13 +215,10 @@ You may also find a README file helpful when you collaborate with others
 around a bunch of files.
 
 1.  Under the `File` menu, first click on `New File`, and then select
-    `Text File`.
-2.  Enter the text "Course material for learning R" into the new file.
+    `Markdown File`.
+2.  Enter the text "\## Course material for learning RStudio and R" into
+    the new file.
 3.  Save the file to your working directory and call it simply `README`.
-
-Your working directory should now look like this:
-
-<img src="../fig/r-starting-how-it-should-look-like.png" title="How it should look like at the beginning of this lesson" alt="How it should look like at the beginning of this lesson" width="100%" style="display: block; margin: auto;"/>
 
 > ## Writing the README file in Markdown
 >
@@ -227,6 +228,11 @@ Your working directory should now look like this:
 > named "README.md"). Markdown is a lightweight markup language that
 > makes it relatively easy to add text formatting using a plain-text
 > editor. {: .callout}
+
+Your working directory should now look like this:
+
+![root-folder](../fig/rstudio-starting-how-it-should-look-like.png)
+![inside-data-folder](../fig/rstudio-create-subfolders.png)
 
 ### The working directory
 
@@ -351,12 +357,11 @@ Besides that, there are a few places on the internet that provide help:
 
 > ## Summary
 >
-> In this tutorial, we provided a brief overview of the programming language R and 
-> demonstrated how to navigate in RStudio. In the next section, we will delve deeper into 
-> our newfound knowledge by continuing with practical examples of R programming. 
-> Specifically, we will further develop our R Project by incorporating real data into our folders, 
-> thereby enriching our learning experience in RStudio.
+> In this tutorial, we provided a brief overview of the programming
+> language R and demonstrated how to navigate in RStudio. In the next
+> section, we will delve deeper into our newfound knowledge by
+> continuing with practical examples of R programming. Specifically, we
+> will further develop our R Project by incorporating real data into our
+> folders, thereby enriching our learning experience in RStudio.
 >
-> Next up is the introduction to scripted analysis with R.
-{: .callout}
-
+> Next up is the introduction to scripted analysis with R. {: .callout}
