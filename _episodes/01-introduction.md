@@ -1,5 +1,5 @@
 ---
-title: "Introducing R and RStudio IDE"
+title: "Introduction to RStudio IDE"
 teaching: 20
 exercises: 10
 questions:
@@ -15,10 +15,8 @@ objectives:
   the purpose of the working directory.
 keypoints:
 - "R is a powerful, popular open-source scripting language"
-- You can customize the layout of RStudio, and use the project feature to manage the
-  files and packages used in your analysis
-- "RStudio allows you to run R in an easy-to-use interface and makes it easy to find
-  help"
+- You can customize the layout of RStudio, and use the project feature to manage the files and packages used in your analysis
+- "RStudio allows you to run R in an easy-to-use interface and makes it easy to find help"
 source: Rmd
 editor_options:
   markdown:
@@ -44,7 +42,7 @@ software that interprets the scripts written using it.
 
 -   R has a rich ecosystem of packages that extend its functionality,
     allowing users to tailor their analyses to specific domains or
-    tasks, and making it a flexible and customizable language for data
+    tasks, and making it a flexible and customizable scripting language for data
     analysis and visualization.
 
 ## What is RStudio?
@@ -187,11 +185,11 @@ Using a consistent folder structure across your projects will help keep
 things organized, and will also make it easy to find/file things in the
 future. This can be especially helpful when you have multiple projects.
 In general, you may create directories (folders) for **scripts**,
-**data**, **data/raw**, **data/processed** and **figs**.
+**data_raw**, **data_processed**, and **figs**.
 
--   **`data/` & `data/raw` & `data/processed`** Use these folders to
-    store raw data and intermediate datasets you may create for the need
-    of a particular analysis. For the sake of transparency and
+-   **`data_raw` & `data_processed`** Use these folders to store raw
+    data and intermediate datasets you may create for the need of a
+    particular analysis. For the sake of transparency and
     [provenance](https://en.wikipedia.org/wiki/Provenance), you should
     *always* keep a copy of your raw data accessible and do as much of
     your data cleanup and preprocessing programmatically (i.e., with
@@ -224,7 +222,7 @@ around a bunch of files.
 >
 > While READMEs can be written in any text file format, it is nowadays
 > very common to use the [Markdown
-> language](https://www.markdownguide.org) (the files are then usaully
+> language](https://www.markdownguide.org) (the files are then usually
 > named "README.md"). Markdown is a lightweight markup language that
 > makes it relatively easy to add text formatting using a plain-text
 > editor. {: .callout}
@@ -232,7 +230,6 @@ around a bunch of files.
 Your working directory should now look like this:
 
 ![root-folder](../fig/rstudio-starting-how-it-should-look-like.png)
-![inside-data-folder](../fig/rstudio-create-subfolders.png)
 
 ### The working directory
 
@@ -243,7 +240,7 @@ root of your working directory and only need files within this
 structure.
 
 Using RStudio projects makes this easy and ensures that your working
-directory is set properly. If you need to check it, you can use
+directory is set properly. If you need to check it, n you cause
 `getwd()`. If for some reason your working directory is not what it
 should be, you can change it in the RStudio interface by navigating in
 the file browser where your working directory should be, and clicking on
