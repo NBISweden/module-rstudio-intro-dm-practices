@@ -15,7 +15,7 @@ title: Setup
 
 > ## Presentation slides
 > 
-> * Download the [presentation slides](./module-rstudio-intro-dm-practices/module-rstudio-dm-practice.pdf)
+> * Download the [presentation slides](./module-rstudio-dm-practice.pdf)
 {: .prereq}
 
 {% include links.md %}
