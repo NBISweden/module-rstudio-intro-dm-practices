@@ -13,5 +13,9 @@ title: Setup
 > * From within RStudio, install the **[Tidyverse](https://www.tidyverse.org)** collection of R packages.
 {: .prereq}
 
+> ## Presentation slides
+> 
+> * Download the [presentation slides](./module-rstudio-intro-dm-practices/module-rstudio-dm-practice.pdf)
+{: .prereq}
 
 {% include links.md %}
