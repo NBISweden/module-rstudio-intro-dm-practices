@@ -59,7 +59,8 @@ installed on your computer.
 >     difficult to use, or where the size of the data set created
 >     issues?
 > -   In what situations do you imagine that using R will be most
->     valuable to you? {: .discussion}
+>     valuable to you?
+{: .discussion}
 
 ## Knowing your way around RStudio
 
@@ -225,7 +226,8 @@ around a bunch of files.
 > language](https://www.markdownguide.org) (the files are then usually
 > named "README.md"). Markdown is a lightweight markup language that
 > makes it relatively easy to add text formatting using a plain-text
-> editor. {: .callout}
+> editor.
+{: .callout}
 
 Your working directory should now look like this:
 
@@ -361,4 +363,5 @@ Besides that, there are a few places on the internet that provide help:
 > will further develop our R Project by incorporating real data into our
 > folders, thereby enriching our learning experience in RStudio.
 >
-> Next up is the introduction to scripted analysis with R. {: .callout}
+> Next up is the introduction to scripted analysis with R.
+{: .callout}
