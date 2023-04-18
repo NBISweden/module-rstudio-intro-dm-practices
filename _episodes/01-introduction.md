@@ -17,10 +17,6 @@ keypoints:
 - "R is a powerful, popular open-source scripting language"
 - You can customize the layout of RStudio, and use the project feature to manage the files and packages used in your analysis
 - "RStudio allows you to run R in an easy-to-use interface and makes it easy to find help"
-source: Rmd
-editor_options:
-  markdown:
-    wrap: 72
 ---
 
 ## What is R?
