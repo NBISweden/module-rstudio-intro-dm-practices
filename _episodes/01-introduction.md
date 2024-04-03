@@ -47,7 +47,7 @@ software that interprets the scripts written using it.
 
 ## What is RStudio?
 
-[RStudio](https://rstudio.com) is currently a very popular way to not
+[RStudio](https://posit.co/products/open-source/rstudio/) is currently a very popular way to not
 only write your R scripts but also to interact with the R software. To
 function correctly, RStudio needs R and therefore both need to be
 installed on your computer.
@@ -63,7 +63,7 @@ installed on your computer.
 
 ## Knowing your way around RStudio
 
-Let's start by learning about [RStudio](https://www.rstudio.com/), which
+Let's start by learning about [RStudio](https://posit.co/products/open-source/rstudio/), which
 is an Integrated Development Environment (IDE) for working with R.
 
 The RStudio IDE open-source product is free under the [Affero General
