@@ -1,6 +1,10 @@
 contentUrl	license
-fig/rstudio-preferences.png	Data Analysis and Visualization in R for Ecologists, CC-BY 4.0 by Data Carpentry, https://creativecommons.org/licenses/by/4.0/
+fig/rstudio-create-folders.png	RStudio screenshot by NBIS, used to teach about RStudio, https://www.rstudio.com/about/trademark/
+fig/rstudio-create-subfolders.png	RStudio screenshot by NBIS, used to teach about RStudio, https://www.rstudio.com/about/trademark/
+fig/rstudio-preferences.png	RStudio screenshot by NBIS, used to teach about RStudio, https://www.rstudio.com/about/trademark/
+fig/rstudio-README-rmarkdown.png	RStudio screenshot by NBIS, used to teach about RStudio, https://www.rstudio.com/about/trademark/
 fig/rstudio-screenshot.png	RStudio screenshot by NBIS, used to teach about RStudio, https://www.rstudio.com/about/trademark/
-fig/rstudiohelp.png	RStudio screenshot by Data carpentry, used to teach about RStudio, https://www.rstudio.com/about/trademark/
-fig/rstudioredx.png	Data Analysis and Visualization in R for Ecologists, CC-BY 4.0 by Data Carpentry, https://datacarpentry.org/R-ecology-lesson 
 fig/rstudio-starting-how-it-should-look-like.png	RStudio screenshot by NBIS, used to teach about RStudio, https://www.rstudio.com/about/trademark/
+fig/rstudiohelp.png	RStudio screenshot by NBIS, used to teach about RStudio, https://www.rstudio.com/about/trademark/
+fig/rstudioredx.png	RStudio screenshot by NBIS, used to teach about RStudio, https://www.rstudio.com/about/trademark/
+module-rstudio-dm-practice.pdf	Presentation CC BY 4.0 by NBIS, https://creativecommons.org/licenses/by/4.0/
